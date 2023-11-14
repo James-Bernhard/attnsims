@@ -13,3 +13,5 @@ Imports:
     rlang,
     stats,
     utils
+URL: https://github.com/James-Bernhard/attnsims
+BugReports: https://github.com/James-Bernhard/attnsims/issues
