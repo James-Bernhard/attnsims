@@ -45,7 +45,9 @@ scaled_softmax <- function(x, divide_by = 1) {
 #' simulate.
 #' @param key_dimension A positive integer specifying the number of
 #' components each key and query is to have.
-#' @param rescaling_function A function, often `scaled softmax`, that is
+#' @param rescaling_function A function whose arguments are a matrix whose
+#' rows are keys (`keys`) and a vector whose dimension is the number of
+#' keys (`x`). This function is
 #' applied to the keys and to the vector of attention scores
 #' when computing the rescaled attention vector. For each set of keys, it is
 #' a function from an n_key-dimensional space itself, although for some

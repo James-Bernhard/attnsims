@@ -25,7 +25,9 @@ simulate.}
 \item{key_dimension}{A positive integer specifying the number of
 components each key and query is to have.}
 
-\item{rescaling_function}{A function, often \verb{scaled softmax}, that is
+\item{rescaling_function}{A function whose arguments are a matrix whose
+rows are keys (\code{keys}) and a vector whose dimension is the number of
+keys (\code{x}). This function is
 applied to the keys and to the vector of attention scores
 when computing the rescaled attention vector. For each set of keys, it is
 a function from an n_key-dimensional space itself, although for some
