@@ -1,10 +1,11 @@
-# README
+# attnsims
 
-# `attnsims`: an R package
+# An R package for simulating attention
 
-The `attnsims` R package was written to produce simulations and plots
-for the paper “Alternatives to the Scaled Dot Product for Attention in
-the Transformer Neural Network Architecture”, by James Bernhard.
+The `attnsims` R package was written by James Bernhard to produce
+simulations and plots for his paper [“Alternatives to the Scaled Dot
+Product for Attention in the Transformer Neural Network
+Architecture”](https://arxiv.org/abs/2311.09406).
 
 ## The main functions
 
